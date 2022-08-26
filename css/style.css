@@ -1,0 +1,217 @@
+body {
+  padding: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+  background-image: url(/08-mega-sena-v2/img/mega-sena-logo.png);
+  background-size: 800px;
+  background-repeat: no-repeat;
+  background-attachment: block;
+  background-position: 900px 100px;
+  background-position: fixed;
+  overflow: block;
+  color: rgba(119, 106, 106, 0.122);
+  background-color: rgba(255, 255, 255, 0.238);
+}
+
+
+
+buttondelete {
+  cursor: pointer;
+  margin: 5px;
+  font: Arial;
+  border: 2px solid;
+  border-radius: 73px;
+  border-color: #ff2c02;
+  font-size: small;
+  padding: 10px;
+  font-weight: 500;
+  color: #ff2c02;
+  background-color: rgb(244, 244, 244);
+  user-select: none;
+
+}
+
+buttonDelete:active {
+  background-color: #ff2c02;
+  color: rgb(244, 244, 244);
+}
+
+
+buttonSaved {
+  cursor: pointer;
+  margin: 5px;
+  font: Arial;
+  border: 2px solid;
+  border-radius: 73px;
+  border-color: #009e4c;
+  font-size: small;
+  padding: 10px;
+  font-weight: 500;
+  color: #101010;
+  background-color: rgb(244, 244, 244);
+  user-select: none;
+}
+
+buttonSaved.active {
+  background-color: #009e4c;
+  color: rgb(244, 244, 244);
+}
+
+
+
+button {
+  cursor: pointer;
+  margin: 5px;
+  border-style: double;
+  border-radius: 73px;
+  border-color: #009e4c;
+  padding: 10px;
+  font-weight: 500;
+  user-select: none;
+}
+
+button:active {
+  background-color: #009e4c;
+  color: rgb(255, 255, 255);
+}
+
+.numbers {
+  border: 0px solid rgb(220, 4, 4);
+  padding: 10px;
+  color: #009e4c;
+  list-style-type: none;
+  font-family: monospace;
+  font-style: inherit;
+  font-size: 20px;
+  text-align: center;
+ 
+}
+
+.number {
+  display: inline-block;
+  margin: 5px;
+  border: 1px solid #009e4c;
+  width: 25px;
+  border-radius: 100%;
+  padding: 5px;
+  font-weight: 500;
+  user-select: none;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.456);
+
+}
+
+.selected-number {
+  background-color: #009e4c;
+  color: rgb(255, 255, 255);
+}
+
+.savedGame {
+  padding: 1px;
+  list-style-type: none;
+  margin: 1px;
+  font-weight: 600;
+  text-align: center;
+  font-size: 18px;
+  color: #009e4c;
+
+}
+
+.nenhumJogo {
+  font-weight: 600;
+  padding: 1px;
+  margin: 1px;
+
+}
+
+.titlegame {
+  text-align: center;
+  font-size: 30px;
+  margin: auto;
+  font-style: oblique;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+
+}
+
+.nota {
+  font-size: 10px;
+  margin: 1px;
+  text-align: center;
+  color: rgb(213, 3, 3);
+}
+
+.centralizar {
+  text-align: center;
+}
+
+.seletor-cursor {
+  cursor: not-allowed;
+}
+
+.seletor-cursor1 {
+  cursor: pointer;
+}
+
+.main1 {
+  background-color: white;
+  padding: 15px;
+  width: 500px;
+  margin: auto;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.359);
+}
+
+.main2 {
+  background-color: white;
+  padding: 15px;
+  width: 300px;
+  height: auto;
+  left: 975px;
+  top: 60px;
+  margin: auto;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.359);
+}
+
+.megasena-img {
+  text-align: center;
+  width: 500px;
+  left: 975px;
+  top: 670px;
+  
+}
+
+.jogoSalvo {
+  background-color: white;
+  padding: 10px;
+  width: 500px;
+  left: 975px;
+  top: 670px;
+  margin: auto;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.359);
+}
+
+.blocoVerde {
+  margin: auto;
+  width: 290px;
+  height: 43px;
+  
+  background: #009e4c;
+}
+
+.megasena-fundo {
+  width: 280px;
+  height: px;
+  position: unset;
+}
+
+.background2 {
+  padding: 5px;
+  width: 800px;
+  height: 800px;
+  position: absolute;
+  opacity: 50%;
+  z-index: -1;
+  top: 95px;
+  left: 895px;
+  background: #ffffff;
+}
